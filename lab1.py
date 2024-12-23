@@ -6,7 +6,7 @@ import random
 from datetime import timedelta
 
 kdsname='input-stream'
-region='us-east-1'
+region='ap-south-1'
 i=0
 clientkinesis = boto3.client('kinesis',region_name=region)
 
